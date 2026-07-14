@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<header>
+    <h1>My Projects</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="internship.html">Internship</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+
+<section class="content">
+
+<div class="project">
+
+    <div class="project-title">
+        <h2>Python Product Scraper</h2>
+        <span>▼</span>
+    </div>
+
+    <div class="project-content">
+
+        <div class="project-images">
+            <img src="images/sv08_code.png">
+            <img src="images/sv08_excel.png">
+            <img src="images/sv08_image_code.png">
+            <img src="images/sv08_images.png">
+        </div>
+
+        <p>
+            Developed a Python-based web scraper to automate the collection of trading card product information. 
+The program extracts product details, generates CSV/Excel files, and retrieves product images automatically 
+for e-commerce uploads. This reduced manual data entry, improved accuracy, and significantly sped up the 
+process of preparing product listings for Shopify.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="project">
+
+    <div class="project-title">
+        <h2>Event Poster Design</h2>
+        <span>▼</span>
+    </div>
+
+    <div class="project-content">
+
+        <img src="images/poster.png">
+
+        <p>
+            Designed promotional posters for trading card events using
+            Adobe Illustrator, Adobe Photoshop, and Canva.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="project">
+
+    <div class="project-title">
+        <h2>Event Floor Plan Design</h2>
+        <span>▼</span>
+    </div>
+
+    <div class="project-content">
+
+        <img src="images/floorplan.png">
+
+        <p>
+            Created floor plans and table layouts for large-scale card events.
+            Managed vendor placements and table numbering.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="project">
+
+    <div class="project-title">
+        <h2>Portfolio Website</h2>
+        <span>▼</span>
+    </div>
+
+    <div class="project-content">
+
+        <img src="images/website.png">
+
+        <p>
+            Created a personal portfolio website using HTML and CSS
+            to showcase my skills, projects, and internship experience.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="project">
+
+    <div class="project-title">
+        <h2>E-commerce Management</h2>
+        <span>▼</span>
+    </div>
+
+    <div class="project-content">
+
+        <img src="images/shopify.png">
+
+        <p>
+            Managed product uploads, inventory updates, and product information
+            using Shopify and Microsoft Excel.
+        </p>
+
+    </div>
+
+</div>
+
+
+</section>
+
+
+<footer>
+    <p>© 2026 Jevon Portfolio</p>
+</footer>
+
+
+<script>
+
+const projects = document.querySelectorAll(".project-title");
+
+projects.forEach(project => {
+    project.onclick = () => {
+        project.parentElement.classList.toggle("active");
+    };
+});
+
+</script>
+
+
+</body>
+</html>
