@@ -225,6 +225,9 @@ nav a:hover {
 
 }
 
+.project h3 {
+    color: #2563eb;
+}
 
 
 .project p {
@@ -577,4 +580,128 @@ footer {
     max-width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.content form {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+
+.content label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+.content input,
+.content textarea {
+
+    width: 100%;
+    padding: 12px;
+
+    margin-top: 5px;
+
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+    font-size: 16px;
+
+    box-sizing: border-box;
+
+}
+
+
+.content button {
+
+    display: block;
+
+    margin: 20px auto 0;
+
+    padding: 12px 25px;
+
+    background: black;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+}
+
+
+.content button:hover {
+
+    background: #333;
+
+}
+
+/* =========================
+   CERTIFICATE DROPDOWN
+========================= */
+
+.certificate-dropdown details {
+
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+.certificate-dropdown summary {
+
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #222;
+
+}
+
+
+.certificate-content {
+
+    margin-top: 20px;
+
+}
+
+
+.certificate-content img {
+
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+
+}
+
+
+.certificate-content a {
+
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+
+.certificate-content a:hover {
+
+    opacity: 0.8;
+
+}
+
+
+.award-title {
+
+    margin-top: 50px;
+
 }
